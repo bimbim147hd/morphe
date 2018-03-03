@@ -11222,6 +11222,10 @@ footer a:hover {
   #group-share span {
     font-size: 13px; } }
 
+@media (max-width: 333px) {
+  .pop-body {
+    padding-bottom: 63px; } }
+
 /*! #######################################################################
 
 	MeanMenu 2.0.7
