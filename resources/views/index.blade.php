@@ -5,29 +5,29 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="">
-    <meta name="title" content="Morphe | Cheaper daily contact lenses delivered monthly at your doorstep"/>
-    <meta name="description" content="Select your Degree of eyes, you'll receive your 1st box of 30 pairs of Beppo Lenses for free. Your monthly subscription brings your lens cost at a lower price! START FOR FREE"/>
+    <meta name="title" content=""/>
+    <meta name="description" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta property="og:title" content="Morphe | Cheaper daily contact lenses delivered monthly at your doorstep" />
-    <meta property="og:image" content="https://fakeimg.pl/400x209/" />
-    <meta property="og:description" content="Select your Degree of eyes, you'll receive your 1st box of 30 pairs of Beppo Lenses for free. Your monthly subscription brings your lens cost at a lower price! START FOR FREE" />
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
     <title>Morphe</title>
-    <link rel="icon" href="{{asset('assets/images/favicon.png')}}" type="image/gif" sizes="16x16">
+    <link rel="icon" href="" type="image/gif" sizes="16x16">
     <link href="{{ asset('assets/dist/app.css') }}" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114864697-1"></script>
+
+   {{--  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114864697-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'UA-114864697-1');
-    </script>
+    </script> --}}
 </head>
 <body>
       <!-- Header -->
