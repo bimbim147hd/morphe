@@ -35,7 +35,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <div class="logo animated fadeIn"><a href="index.html"><img src="assets/images/logo.png" alt="" /></a></div>
+                        <div class="logo animated fadeIn"><a href="{{asset('/')}}"><img src="assets/images/logo.png" alt="" /></a></div>
                         <h1 class="animated fadeIn">The best sheets ever.</h1>
                         <div class="top-form">
                             <form id="formEmail" action="{{asset('/')}}" method="post">
