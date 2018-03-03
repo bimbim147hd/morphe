@@ -1,0 +1,400 @@
+@font-face {
+    font-family: 'GothamRounded Book';
+    src: url('../fonts/GothamRoundedBook21018.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/GothamRoundedBook21018.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/GothamRoundedBook21018.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/GothamRoundedBook21018.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/GothamRoundedBook21018.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/GothamRoundedBook21018.svg') format('svg');
+}
+@font-face {
+    font-family: 'GothamRounded Medium';
+    src: url('../fonts/GothamRoundedMedium21022.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/GothamRoundedMedium21022.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/GothamRoundedMedium21022.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/GothamRoundedMedium21022.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/GothamRoundedMedium21022.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/GothamRoundedMedium21022.svg') format('svg');
+}
+@font-face {
+    font-family: 'RetroSuperSkinny';
+    src: url('../fonts/RetroSuperSkinny.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/RetroSuperSkinny.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/RetroSuperSkinny.woff') format('woff'),
+       url('../fonts/RetroSuperSkinny.svg') format('svg');
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'GothamRounded Book';
+    color: #000;
+}
+h1,h2,h3,h4{
+    margin: 0;
+    font-family: 'GothamRounded Medium';
+    color: #000;
+}
+p, a{
+    margin-bottom: 0;
+    color: #000;
+    font-size: 19px;
+}
+ul{
+    padding-left:0;
+        margin: 0px;
+}
+header{
+    // background: url(../assets/images/banner.jpg) no-repeat center center /cover;
+    padding-top: 30px;
+    padding-bottom: 440px;
+    position: relative;
+}
+.logo img{
+    width: auto;
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+header h1{
+    font-family: 'RetroSuperSkinny';
+    font-size: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 6px;
+}
+.top-form {
+    width: 100%;
+    max-width: 531px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.btn{
+    cursor: pointer;
+}
+.top-form .form-control, .top-form .btn{
+    width: 49.5%;
+    display: inline-block;
+    font-size: 13px;
+    border-color: #303030;
+    height: 50px;
+    border-radius: 0px;
+    letter-spacing: 1px;
+}
+.top-form .btn{
+    margin-left: -5px;
+    position: relative;
+    top: -1px;
+}
+.btn.btn--dark{
+    background: #303030;
+    
+}
+.btn.btn--dark:hover{
+    opacity: .9;
+    
+}
+#formEmail .errorTxt .error {
+    margin-top: 15px; 
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    display: block;
+    font-size: 13px;
+}
+
+header h2{
+    color:#303030;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+.pop-up{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(219, 219, 221, 0.87);
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+}
+.pop-up-inner{
+    width: 100%;
+    max-width: 1030px;
+    padding: 30px 15px;
+    margin: auto;
+}
+.pop-body{
+    width: 100%;
+    background: #2b2b2b;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 58px rgba(0, 0, 0, 0.61);
+    -moz-box-shadow: 0px 0px 58px rgba(0, 0, 0, 0.61);
+    box-shadow: 0px 0px 58px rgba(0, 0, 0, 0.61);
+}
+.close-pop{
+    position: absolute;
+    top: 30px;
+    right: 36px;
+}
+.pop-body .logo img {
+    margin-bottom: 32px;
+}
+.pop-body p {
+    font-family: 'RetroSuperSkinny';
+    color: #fff;
+    font-size:  20px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.pop-body h2 {
+    color: #fff;
+    font-size:  40px;
+    margin-bottom: 15px;
+    text-decoration: none;
+        font-family: 'RetroSuperSkinny';
+        letter-spacing: 5px;
+}
+.pop-body h3 {
+     font-family: 'GothamRounded Book';
+    color: #fff;
+    font-size:  20px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+.share-btns{
+    width: 100%;
+    max-width: 558px;
+    margin: auto;
+}
+.share-btns a{
+    text-decoration: none;
+    padding: 15px 15px;
+        margin-left: -5px;
+    font-size: 12px;
+    display: inline-block;
+    width: 49.5%;
+    border: 1px solid #d6d6d6;
+    
+}
+.share-btns a:first-child {
+    color: #ffffff;
+}
+.share-btns a:last-child{
+    background: #d6d6d6;
+    color: #333;
+}
+.share-btns a i{
+float: left;
+    font-size: 18px;
+    position: relative;
+    top: 1px;
+}
+#group-share{
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -175px;
+}
+#group-share span {
+    color: white;
+}
+#group-share button {
+    backgrounf-color: #d6d6d6;
+    color: #333;
+}
+.pop-up{
+    display: none;
+}
+.pop-up .logo{
+    margin-bottom: 40px;
+}
+.pop-up.active{
+    display: block;
+}
+.feature{
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+}
+.feature.type-2{
+    background-position-x: right;
+}
+.feature.bg-1{
+    // background-image: url(../assets/images/bk1.jpg);
+    
+}
+.feature.bg-2{
+    // background-image: url(../assets/images/bk2.jpg);
+}
+.feature.bg-3{
+    // background-image: url(../assets/images/bk3.jpg);
+}
+.feature.bg-4{
+    // background-image: url(../assets/images/bk4.jpg);
+}
+.sec-pad{
+    padding-top: 137px;
+    padding-bottom: 130px;
+}
+.feature-item h2{
+    color: #000;
+    font-size:  35px;
+    padding-bottom: 24px;
+    margin-bottom: 20px;
+    position: relative;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.feature-item h2:before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    width: 25px;
+    height: 5px;
+    background: #000;
+}
+.feature-item p{
+    letter-spacing: 1px;
+}
+.approach{
+    padding-top: 330px;
+    padding-bottom: 260px;
+    // background: url(../assets/images/bk5.jpg) no-repeat center center /cover;
+}
+.approach h2{
+    color: #000;
+    font-size: 35px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+footer{
+    padding: 24px;
+}
+footer a{
+    color: #000;
+    font-family: 'GothamRounded Medium';
+    font-size: 28px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+footer a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+header h1 {
+    font-size: 31px;
+    letter-spacing: 5px;
+}
+.feature-item h2 {
+    font-size: 22px;
+    padding-bottom: 14px;
+    margin-bottom: 16px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.sec-pad {
+    padding-top: 80px;
+    padding-bottom: 64px;
+}
+p, a {
+    font-size: 16px;
+}
+.approach h2 {
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+.approach {
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+
+footer a {
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.pop-body p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+pop-body h2 {
+    font-size: 26px;
+}
+.pop-body h3 {
+    font-size: 15px;
+    margin-bottom: 29px;
+}
+.share-btns a {
+    width: 100%;
+}
+.pop-body h2 {
+    font-size: 24px;
+}
+}
+
+
+@media only screen and (max-width: 480px) {
+header {
+    padding-bottom: 369px;
+}
+header h1 {
+    font-size: 21px;
+    letter-spacing: 3px;
+}
+.top-form .form-control, .top-form .btn {
+    width: 100%;
+    display: block;
+}
+.top-form .btn {
+    margin-left: 0px;
+    top: 0px;
+}
+.logo img {
+    margin-bottom: 28px;
+}
+.pop-body {
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.pop-body .logo img {
+    margin-bottom: 11px;
+    width: 143px;
+}
+#group-share{
+    bottom: 0;
+    margin-left: -150px;
+}
+#group-share span {
+    font-size: 13px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
