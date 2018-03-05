@@ -16106,7 +16106,7 @@ $(document).ready(function () {
         errorLabelContainer: '.errorTxt'
     });
     $('.share-btns a:first-child').click(function () {
-        $('.pop-up #group-share').slideToggle();
+        $('.pop-up #group-share').fadeToggle();
         return false;
     });
 
