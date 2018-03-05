@@ -21,7 +21,7 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114864697-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115050835-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
