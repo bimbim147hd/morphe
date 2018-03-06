@@ -6,7 +6,7 @@
                     <div class="pop-body text-center">
                         <a href="#" class="close-pop"><img src="assets/images/close.png" alt="" /></a>
                         <div class="logo">
-                            <a href="{{asset('/')}}" title=""></a><img src="assets/images/logo-white.png" alt=""/>
+                            <a href="{{asset('/')}}" title=""><img src="assets/images/logo-white.png" alt=""/></a>
                         </div>
                         <p>THANK YOU FOR JOINING OUR WAITLIST</p>
                         <h2>Get additional sheets for free!</h2>
