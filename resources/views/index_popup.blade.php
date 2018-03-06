@@ -9,7 +9,7 @@
                 <a href="{{asset('/')}}" title=""><img src="assets/images/logo.png" alt="" /></a>
             </div>
             <p>THANK YOU FOR JOINING OUR WAITLIST</p>
-            <h2>Get additional lenses for free!</h2>
+            <h2>Get additional sheets for free!</h2>
             <h3>Invite 3 friends to the waiting list and earn your first month for free.</h3>
             <div class="share-btns">
                 <a href=""><i class="fa fa-link"></i>SHARE THIS LINK</a>
