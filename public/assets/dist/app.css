@@ -10964,7 +10964,9 @@ header h1 {
 
 .top-form .btn {
   margin-left: -5px;
-  margin-top: -1px; }
+  position: relative;
+  top: -1px;
+  border: 1px solid rgba(0, 0, 0, 0.15); }
 
 .btn.btn--dark {
   background: #303030; }
