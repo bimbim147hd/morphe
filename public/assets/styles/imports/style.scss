@@ -80,8 +80,9 @@ header h1{
 }
 .top-form .btn{
     margin-left: -5px;
-    position: relative;
-    top: -1px;
+    // position: relative;
+    // top: -1px;
+    margin-top: -1px;
 }
 .btn.btn--dark{
     background: #303030;
