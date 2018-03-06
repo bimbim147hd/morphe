@@ -10963,7 +10963,8 @@ header h1 {
   letter-spacing: 1px; }
 
 .top-form .btn {
-  margin-left: -5px; }
+  margin-left: -5px;
+  margin-top: -1px; }
 
 .btn.btn--dark {
   background: #303030; }
