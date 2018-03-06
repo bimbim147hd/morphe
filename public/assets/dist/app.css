@@ -11077,17 +11077,25 @@ header h2 {
 #group-share {
   display: none;
   position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -175px; }
+  bottom: 5px;
+  width: 90%; }
+
+#group-share p {
+  margin: 0;
+  width: 100%; }
 
 #group-share span {
-  color: white; }
+  padding: 2px 15px;
+  font-size: 13px;
+  color: #d6d6d6; }
 
 #group-share button {
   background-color: #d6d6d6;
   color: #333;
-  border: none; }
+  border: none;
+  font-size: 12px;
+  padding: 10px 15px;
+  margin-bottom: 5px; }
 
 .pop-up {
   display: none; }
@@ -11210,21 +11218,25 @@ footer a:hover {
   .logo img {
     margin-bottom: 28px; }
   .pop-body {
-    padding-bottom: 50px;
+    padding-bottom: 70px;
     padding-left: 15px;
     padding-right: 15px; }
   .pop-body .logo img {
     margin-bottom: 11px;
     width: 143px; }
-  #group-share {
-    bottom: 7px;
-    margin-left: -150px; }
-  #group-share span {
-    font-size: 13px; } }
+  #group-share button {
+    background-color: #d6d6d6;
+    color: #333;
+    border: none;
+    font-size: 12px;
+    padding: 4px;
+    margin-bottom: 5px; } }
 
-@media (max-width: 333px) {
+@media (max-width: 366px) {
   .pop-body {
-    padding-bottom: 63px; } }
+    padding-bottom: 60px; }
+  #group-share {
+    bottom: 0; } }
 
 /*! #######################################################################
 
