@@ -53,11 +53,11 @@
         <header style="background: url(../assets/images/banner.jpg) no-repeat center center /cover;">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 text-center">
-                        <div class="logo animated fadeIn"><a href="{{asset('/')}}"><img src="assets/images/logo.png" alt="" /></a></div>
-                        <h1 class="animated fadeIn">The best sheets ever.</h1>
+                    <div class="col-12 text-center animated fadeIn">
+                        <div class="logo"><a href="{{asset('/')}}"><img src="assets/images/logo.png" alt="" /></a></div>
+                        <h1>The best sheets ever.</h1>
                         <div class="top-form">
-                            <form id="formEmail" action="{{asset('/')}}" method="post">
+                           {{--  <form id="formEmail" action="{{asset('/')}}" method="post">
                                  {{ csrf_field() }}
                                 <input type="email" name="email" value="{{old('email')}}" class="form-control animated fadeIn" id="email" placeholder="ENTER YOUR EMAIL" />
                                  <input type="hidden" name="code" value="
@@ -67,8 +67,20 @@
                                         {{''}}
                                     @endif
                                     " placeholder="">
-                               {{--  <button type="submit" name="send" class="btn btn-primary btn--dark animated fadeIn">JOIN OUR WAITING LIST</button> --}}
                                 <input type="submit" name="send" class="btn btn-primary btn--dark animated fadeIn" value="JOIN OUR WAITING LIST">
+                                <div class="errorTxt"></div>
+                            </form> --}}
+                            <form id="formEmail" action="{{asset('/')}}" method="post">
+                                {{ csrf_field() }}
+                                <input id="email" class="email" type="email" name="email" value="{{old('email')}}" placeholder="ENTER YOUR EMAIL">
+                                <input type="hidden" name="code" value="
+                                    @if (isset($_GET['rel']))
+                                        {{$_GET['rel']}}
+                                    @else
+                                        {{''}}
+                                    @endif
+                                    " placeholder="">
+                                <input class="send" type="submit" name="send" value="JOIN OUR WAITING LIST">
                                 <div class="errorTxt"></div>
                             </form>
                         </div>

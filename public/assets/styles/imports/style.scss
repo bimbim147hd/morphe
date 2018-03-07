@@ -69,22 +69,29 @@ header h1{
 .btn{
     cursor: pointer;
 }
-.top-form .form-control, .top-form .btn{
+.top-form .email{
     width: 49.5%;
     display: inline-block;
     font-size: 13px;
-    border-color: #303030;
-    height: 50px;
-    border-radius: 0px;
+    height: 50px; 
+    border: 1px solid #303030; 
+    padding-left: 15px; 
+    padding-right: 15px;    
     letter-spacing: 1px;
-
 }
-.top-form .btn{
+.top-form .send {
+    width: 49.5%;
+    display: inline-block;
+    font-size: 13px;
+    height: 50px; 
+    border: 1px solid #303030; 
+    padding-left: 15px; 
+    padding-right: 15px;    
+    letter-spacing: 1px; 
+    background: #303030; 
+    color: #fff; 
+    cursor: pointer; 
     margin-left: -5px;
-    // position: relative;
-    // top: -1px;
-    margin-top: -2px;
-    padding-bottom: 9px; 
 }
 .btn.btn--dark{
     background: #303030;
@@ -374,6 +381,10 @@ header h1 {
 .top-form .form-control, .top-form .btn {
     width: 100%;
     display: block;
+}
+.top-form .email, .top-form .send {
+    width: 100%;
+    margin-left: 0; 
 }
 .top-form .btn {
     margin-left: 0px;
