@@ -84,6 +84,7 @@ header h1{
     // position: relative;
     // top: -1px;
     margin-top: -1px;
+    padding-bottom: 9px; 
 }
 .btn.btn--dark{
     background: #303030;
@@ -197,21 +198,6 @@ float: left;
     position: relative;
     top: 1px;
 }
-// #group-share{
-//     display: none;
-//     position: absolute;
-//     bottom: 20px;
-//     left: 50%;
-//     margin-left: -175px;
-// }
-// #group-share span {
-//     color: white;
-// }
-// #group-share button {
-//     background-color: #d6d6d6;
-//     color: #333;
-//     border: none;
-// }
 #group-share{
     display: none;
     position: absolute;
@@ -405,14 +391,6 @@ header h1 {
     margin-bottom: 11px;
     width: 143px;
 }
-// #group-share{
-//     bottom: 7px;
-//     margin-left: -150px;
-// }
-// #group-share span {
-//     font-size: 13px;
-
-// }
  #group-share button{
         background-color: #d6d6d6;
         color: #333;
@@ -422,11 +400,6 @@ header h1 {
         margin-bottom: 5px; 
     }
 }
-// @media(max-width: 333px){
-//     .pop-body {
-//         padding-bottom: 63px;
-//     }
-// }
 @media(max-width: 366px){
     .pop-body {
         padding-bottom: 60px;
@@ -435,6 +408,7 @@ header h1 {
         bottom: 0;
     }
 }
+
 
 
 
