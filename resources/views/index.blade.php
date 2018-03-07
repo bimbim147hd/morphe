@@ -57,19 +57,6 @@
                         <div class="logo"><a href="{{asset('/')}}"><img src="assets/images/logo.png" alt="" /></a></div>
                         <h1>The best sheets ever.</h1>
                         <div class="top-form">
-                           {{--  <form id="formEmail" action="{{asset('/')}}" method="post">
-                                 {{ csrf_field() }}
-                                <input type="email" name="email" value="{{old('email')}}" class="form-control animated fadeIn" id="email" placeholder="ENTER YOUR EMAIL" />
-                                 <input type="hidden" name="code" value="
-                                    @if (isset($_GET['rel']))
-                                        {{$_GET['rel']}}
-                                    @else
-                                        {{''}}
-                                    @endif
-                                    " placeholder="">
-                                <input type="submit" name="send" class="btn btn-primary btn--dark animated fadeIn" value="JOIN OUR WAITING LIST">
-                                <div class="errorTxt"></div>
-                            </form> --}}
                             <form id="formEmail" action="{{asset('/')}}" method="post">
                                 {{ csrf_field() }}
                                 <input id="email" class="email" type="email" name="email" value="{{old('email')}}" placeholder="ENTER YOUR EMAIL">
