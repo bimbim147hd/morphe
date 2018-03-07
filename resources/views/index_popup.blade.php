@@ -1,10 +1,10 @@
  @extends('index')
  @section('popup')
 <!-- Pop Up -->
-<script>
-    fbq('track', 'Lead');
-</script>
 <div class="pop-up active animated fadeIn">
+    <script>
+        fbq('track', 'Lead');
+    </script>
     <div class="pop-up-inner">
         <div class="pop-body text-center">
             <a href="#" class="close-pop"><img src="assets/images/close.png" alt="" /></a>
