@@ -38,12 +38,12 @@
         t.src=v;s=b.getElementsByTagName(e)[0];
         s.parentNode.insertBefore(t,s)}(window,document,'script',
         'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1701311586578775');
+        fbq('init', '611092005899859');
         fbq('track', 'PageView');
     </script>
     <noscript>
         <img height="1" width="1"
-        src="https://www.facebook.com/tr?id=1701311586578775&ev=PageView
+        src="https://www.facebook.com/tr?id=611092005899859&ev=PageView
         &noscript=1"/>
     </noscript>
     <!-- End Facebook Pixel Code -->
@@ -55,7 +55,7 @@
                 <div class="row">
                     <div class="col-12 text-center animated fadeIn">
                         <div class="logo"><a href="{{asset('/')}}"><img src="assets/images/logo.png" alt="" /></a></div>
-                        <h1>The best sheets ever.</h1>
+                        <h1>The best sheets ever. At low price.</h1>
                         <div class="top-form">
                             <form id="formEmail" action="{{asset('/')}}" method="post">
                                 {{ csrf_field() }}
