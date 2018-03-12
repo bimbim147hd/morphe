@@ -176,7 +176,7 @@
 
         <!-- Footer -->
         <footer class="text-center">
-             <span>Contact</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:hello@morphehome.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/MorpheExperience/" target="_blank" title=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+             <span>Contact us</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="fa fa-envelope-o" href="mailto:hello@morphehome.com"></a>&nbsp;&nbsp;&nbsp;<a class="fa fa-facebook" href="https://www.facebook.com/MorpheExperience/" target="_blank" title=""></a>
         </footer>
         <!-- ./Footer -->
     <script src="{{ asset('assets/dist/app.js') }}"></script>

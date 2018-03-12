@@ -301,7 +301,7 @@ float: left;
 footer{
     padding: 24px;
 }
-footer a, footer span{
+footer span{
     color: #000;
     font-family: 'GothamRounded Medium';
     font-size: 28px;
@@ -309,6 +309,22 @@ footer a, footer span{
     text-transform: uppercase;
     letter-spacing: 5px;
 }
+footer a {
+    border: 1px solid #000;
+    background: #000;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px !important;
+    text-align: center;
+}
+footer a.fa-envelope-o{
+    color: #db3236;
+}
+footer a.fa-facebook{
+    color: #3b5998;
+}
+
 footer a:hover{
     text-decoration: none;
 }
